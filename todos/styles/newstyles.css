@@ -1,0 +1,98 @@
+@font-face {
+    font-family: brolimo;
+    src: url('fonts/BrolimoRegular.ttf');
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-right: 1rem;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+h1 .welcome{
+    font-family: brolimo;
+}
+
+.hero {
+    margin-left: 15%;
+    background-image: url('hero-background.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000;
+
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 2px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.button {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 23px;
+    background-color: black;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    height: 8%;
+    width: 10%;
+}
+
+.button:hover{
+    background-color: #fff;
+    color: #000;
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+.asset{
+    max-height: 55%;
+   
+}
